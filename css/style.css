@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgba(106, 17, 203, 1);
+    width: 100%;
+}
+
+main .container {
+    height: 500px;
+    width: 900px;
+    padding: 30px;
+    background: #fff;
+    border-radius: 7px;
+    box-shadow: 0 4px 9px -4px #6a11cb;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+span {
+    font-weight: 900;
+}
+
+h5 {
+    letter-spacing: 1px;
+}
+
+p {
+    color: #393f81;
+}
+
+input.form-control {
+    height: 40px;
+    border: solid 1px #726d6d;
+}
+
+input.form-control:focus {
+    border: solid 2px #6a11cb;
+    box-shadow: 0 0 0 .25rem rgba(132,17,255,.25);
+    outline: none;
+}
+
+.form-check-input:checked {
+    background-color: #6a11cb;
+    border-color: #6a11cb;
+}
+
+.form-check-input:focus {
+    border-color: #8411ff;
+    outline: 0;
+    box-shadow: 0 0 0 .25rem rgba(132,17,255,.25);
+}
+
+button.btn {
+    height: 40px;
+    background: #6a11cb;
+    color: #fff;
+    box-shadow: 0 4px 9px -4px #6a11cb;
+    border: #6a11cb;
+}
+
+button.btn:focus {
+    background: #8411ff;
+    color: #fff;
+    box-shadow: 0 0 0 .25rem rgba(132,17,255,.25);
+    border-color: #8411ff;
+}
+button.btn:hover {
+    background: #8411ff;
+    color: #fff;
+}
+
+button.btn:active {
+    color: #fff;
+}
+
+a.register {
+    color: #393f81;
+}
+a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    main .container {
+        width: auto;
+        height: auto;
+    }
+}
